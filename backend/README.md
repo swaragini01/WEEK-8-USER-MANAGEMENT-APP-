@@ -1,7 +1,7 @@
 
 ---
 
-## 📄 2. Backend Directory README (`/backend/README.md`)
+##  2. Backend Directory README (`/backend/README.md`)
 *Place this inside your `/backend` folder to document your API logic and database schema constraints.*
 
 ```markdown
@@ -11,7 +11,7 @@ This directory houses the secure, production-grade REST API backend layer for th
 
 ---
 
-## 📂 Internal Directory Framework
+##  Internal Directory Framework
 
 ```text
 backend/
@@ -34,7 +34,7 @@ PUT/api/users/:idLocates an active record by ID and executes an full property ov
 DELETE/api/users/:idPurges a target document permanently out of the cloud collection index.
 
 
-🧠 What We Learned & Implemented
+ What We Learned & Implemented
 1. Schema Constraints & Data Safety (models/)Enforced strict document formatting rules using Mongoose schemas (e.g., verifying String and Number data types, ensuring fields are marked as required, and verifying key unique constraints).
 2. Centralized Interceptor Middlewares (middlewares/)Payload Parsing: Integrated custom express.json() routing controls to seamlessly unpack and format incoming incoming transaction payloads.Global Error Catch Wrapper: Programmed an asynchronous global exception handler middleware. If a database query fails or a network constraint drops, this component logs the error and responds with an structured JSON status payload, preventing any server crashes.
 3. Asynchronous Database Query Pipelines (APIs/)Implemented modern asynchronous JavaScript logic (async/await) along with structural try/catch validation loops to cleanly manage database queries without falling into callback hell.
