@@ -11,7 +11,7 @@ The project is divided into two independent runtime environments: backend and fr
 
 user-management-app/
 │
-├── backend/                 # Server Runtime (Express, Mongoose, REST API)
+├── backend/   # Server Runtime (Express, Mongoose, REST API)
 │   ├── APIs/                # Controller routes
 │   ├── middlewares/         # Request preprocessing & error handling
 │   ├── models/              # Mongoose schemas & collections
